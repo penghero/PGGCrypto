@@ -4,7 +4,7 @@
 //
 //  Created by 陈鹏 on 2017/10/25.
 //  Copyright © 2017年 penggege.CP. All rights reserved.
-//
+//  GitHub地址  https://github.com/penghero/PGGCrypto.git
 
 #import "DetailedPublicViewController.h"
 
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"测试加密";
+    self.navigationItem.title = self.pggTitle;
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view from its nib.
 }

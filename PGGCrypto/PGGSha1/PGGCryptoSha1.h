@@ -4,7 +4,7 @@
 //
 //  Created by 陈鹏 on 2017/10/25.
 //  Copyright © 2017年 penggege.CP. All rights reserved.
-//
+//  GitHub地址  https://github.com/penghero/PGGCrypto.git
 /*
  鹏哥哥sha1（安全[哈希算法]）只是叫做一种算法，用于检验数据完整性
  全名： 安全哈希算法（Secure Hash Algorithm）输出： 160bit

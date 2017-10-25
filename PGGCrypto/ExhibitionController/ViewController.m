@@ -4,7 +4,7 @@
 //
 //  Created by 陈鹏 on 2017/10/24.
 //  Copyright © 2017年 penggege.CP. All rights reserved.
-//
+//  GitHub地址  https://github.com/penghero/PGGCrypto.git
 
 #import "ViewController.h"
 #import "DetailedPublicViewController.h"
@@ -75,6 +75,7 @@ static NSString *SSID = @"PGGUITableViewCell_ID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailedPublicViewController *detail = [[DetailedPublicViewController alloc] init];
     detail.PGGControllerStyle = indexPath.row;
+    detail.pggTitle = dataArr[indexPath.row];
     [self.navigationController pushViewController:detail animated:YES];
 }
 

@@ -4,7 +4,7 @@
 //
 //  Created by 陈鹏 on 2017/10/25.
 //  Copyright © 2017年 penggege.CP. All rights reserved.
-//
+//  GitHub地址  https://github.com/penghero/PGGCrypto.git
 
 #import "PGGCryptoHMAC.h"
 
