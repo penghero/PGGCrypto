@@ -1,0 +1,32 @@
+//
+//  public.pch
+//  PGGCrypto
+//
+//  Created by 陈鹏 on 2017/10/25.
+//  Copyright © 2017年 penggege.CP. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+#define PGGkey            @"PGGCRYPTOKEY1024" //key自行修改
+#define PGGIv             @"PGGPASSWORD@1024" //偏移量自行修改
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonHMAC.h>
+#import <CommonCrypto/CommonCryptor.h>
+#import <Security/Security.h>
+#import "PGG.h"
+
+#define dataArr @[@"鹏哥哥MD5加密",@"鹏哥哥SHA1加密",@"鹏哥哥HMAC加密",@"鹏哥哥HMAC_MD5加密",@"鹏哥哥AES加密",@"鹏哥哥DES加密",@"鹏哥哥RSA加密"]
+
+#ifdef DEBUG  //调试模式
+#define MYLog(...) NSLog(__VA_ARGS__)
+#else  //Release模式
+#define MYLog(...)
+#endif
+
+#endif /* public_pch */
